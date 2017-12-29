@@ -3,9 +3,8 @@ const express = require('express');
 const app = express();
 
 // configure the PORT
-const PORT = 8080;
-app.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+app.listen((process.env.PORT || 8080), () => {
+  console.log(`Server is listening`);
 });
 
 // configure SOLO Router
