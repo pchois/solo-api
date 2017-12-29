@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/pchois/solo-api.git"
   },
-  "author": "Peaches",
+  "author": "peaches",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pchois/solo-api/issues"
